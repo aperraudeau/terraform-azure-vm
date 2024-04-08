@@ -17,7 +17,9 @@ VS Code and Terraform Extension
 
 # Configuration
 
-Open terraforms.tfvars and replace value with your own informations
+Create a file at the root directory named "terraforms.tfvars" and assign values to the following variables:
+
+subscription_id, machine_user, machine_password
 
 # Terraform CLI
 

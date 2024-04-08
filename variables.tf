@@ -26,6 +26,11 @@ variable "machine_name" {
   default = "arrakis"
 }
 
+variable "machine_size" {
+  type = string
+  default = "Standard_DS1_v2"
+}
+
 variable "machine_user" {
   type = string
 }
@@ -33,8 +38,4 @@ variable "machine_user" {
 variable "machine_password" {
   type      = string
   sensitive = true
-}
-
-variable "machine_size" {
-  type = string
 }
